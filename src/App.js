@@ -16,6 +16,10 @@ function App() {
   const [scroll, setScroll] = useState(false);
   const [bagr,setBegr] = useState({height:'420vh'})
   function f(event){
+    if(event.target.id==="butAbout menup"){
+      setBegr({height:'0px'})
+      console.log(bagr)
+  }
     if(event.target.id==="butAbout"){
         setBegr({height:'0px'})
         console.log(bagr)
