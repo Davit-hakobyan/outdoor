@@ -1,0 +1,35 @@
+.Contact{
+   
+    background-image: url('../../img/contactfon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Contact_fon{
+    color: white;
+    font-size: 50px;
+    padding: 250px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* MEDIA */
+@media screen  and (max-width:650px){
+
+    .Contact_fon{
+    color: white;
+    font-size: 30px;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+}
+@media screen  and (max-width:500px){
+    .Contact_fon{
+        font-size: 20px;
+    }
+    
+}

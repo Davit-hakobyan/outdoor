@@ -1,0 +1,58 @@
+.ContactCom2{
+    background-color: white;
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ContactCom2>div{
+    width: 35%;
+}
+.contactinput{
+    width: 100%;
+    height: 50px;
+}
+.contactinput::placeholder{
+    border: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.icondiv{
+    
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.icon{
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #df1c4d;
+}
+@media screen  and (max-width:700px){
+    .ContactCom2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;   
+    }
+    
+    #ContactCom2_div1{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ContactCom2>div{
+        width: 90%;
+    }
+        
+}

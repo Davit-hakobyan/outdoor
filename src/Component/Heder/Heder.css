@@ -1,0 +1,90 @@
+.heder{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.heder_menu>b{
+    cursor: pointer;
+    margin-right: 25px;
+    font-size:18px ;
+
+}
+#butHome{
+    cursor: pointer;
+    margin-right: 25px;
+    font-size:18px ;
+    color: white;
+
+}
+#butAbout{
+    cursor: pointer;
+    margin-right: 25px;
+    font-size:18px ;
+    color: white;
+
+}
+.heder_menu>button{
+    padding: 10px 30px 10px 30px;
+    font-size: 17px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FB2056;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.heder_menu>button:hover{
+    cursor: pointer;
+    background-color: #ce1b48;
+
+}
+
+.menuMedia{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FB2056;
+    color: white;
+}
+.menuMedia>div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+   
+}
+.hedermenuMedia{
+    background-color: white;
+    color: black;
+}
+.menuLink{
+    padding: 30px;
+    padding-left: 20px;
+}
+
+
+
+/* MEDIA */
+@media screen  and (max-width:1000px){
+    .menuMedia{
+        display: block;
+    }
+    .heder_menu{
+        display: none;
+    }
+    .heder{
+        background-color: white;
+    }
+    .heder_logo{
+        color: black;
+    }
+}
+

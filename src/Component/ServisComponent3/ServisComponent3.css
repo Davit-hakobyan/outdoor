@@ -1,0 +1,49 @@
+.ServisComp3{
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F5F5F5;
+}
+
+.ServisComp3_div1{
+    width: 30%;
+}
+.ServisComp3_div1>hr{
+    
+    width: 15%;
+    border: 2px solid #FB2056 ;
+}
+.serv3_tox{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+   
+
+}
+.serv3_tox>hr{
+    margin-right: 10px;
+   width: 10px;
+   border: 2px solid #FB2056;
+} 
+
+
+/* MEDIA */
+
+@media screen and (max-width:500px){
+    .ServisComp3{
+            padding: 50px 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #F5F5F5;
+    }
+    .ServisComp3_div1{
+        margin-top: 15px;
+        width: 70%;
+    }
+
+    
+    
+}

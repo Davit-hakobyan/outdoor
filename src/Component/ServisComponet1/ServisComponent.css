@@ -1,0 +1,25 @@
+.servis_fon{
+    background-image: url('../../img/servisfon.jpg');
+    background-blend-mode: multiply;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.servis_text{
+    padding: 230px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+}
+
+/* MEDIA */
+@media screen  and (max-width:500px) {
+    .servis_text{
+        padding: 150px 0;
+        font-size: 25px;
+    }
+
+    
+}
