@@ -17,11 +17,11 @@ function App() {
   const [bagr,setBegr] = useState({height:'420vh'})
   function f(event){
     if(event.target.id==="butAbout menup"){
-      setBegr({height:'0px'})
+      setBegr({height:'100vh'})
       console.log(bagr)
   }
     if(event.target.id==="butAbout"){
-        setBegr({height:'0px'})
+        setBegr({height:'100vh'})
         console.log(bagr)
     }
     if(event.target.id==="butHome"){
